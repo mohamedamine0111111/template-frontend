@@ -1,0 +1,91 @@
+
+📁 TemplateEvaluation/
+├── .vscode/
+│   └── settings.json   ← ⚙️ config de compilation
+│
+├── css/
+│   ├── main.css        ← 🔗 compilé depuis main.scss
+│   └── main.css.map    ← 🧭 mapping de compilation
+│
+├── media/
+│   ├── images/         ← 🖼️ à compléter (images du projet)
+│   └── videos/         ← 🎥 à compléter (si utilisé)
+│
+├── scss/
+│   ├── bases/          ← 📌 structure de base globale
+│   │   ├── _base.scss          → ➤ relie reset + responsive
+│   │   ├── _reset.scss         → ➤ reset du navigateur
+│   │   └── _responsive.scss    → ➤ media queries globales
+│   │
+│   ├── components/     ← 🧩 éléments réutilisables
+│   │   ├── _badge.scss         → ➤ badges
+│   │   ├── _buttons.scss       → ➤ boutons
+│   │   ├── _card.scss          → ➤ cartes
+│   │   ├── _components.scss    → ➤ point de liaison
+│   │   ├── _inputs.scss        → ➤ champs de formulaire
+│   │   ├── _loader.scss        → ➤ loaders
+│   │   ├── _modal.scss         → ➤ fenêtres modales
+│   │   └── _nav.scss           → ➤ navigation
+│   │
+│   ├── layout/         ← 🧱 structure de page
+│   │   ├── _footer.scss        → ➤ pied de page
+│   │   ├── _header.scss        → ➤ entête
+│   │   └── _layout.scss        → ➤ point de liaison layout
+│   │
+│   ├── pages/          ← 📄 styles spécifiques par page
+│   │   ├── _about.scss         → ➤ page à propos
+│   │   ├── _contact.scss       → ➤ page contact
+│   │   ├── _home.scss          → ➤ page d’accueil
+│   │   └── _pages.scss         → ➤ point de liaison pages
+│   │
+│   └── main.scss       ← 🌐 point central @use tous les blocs
+│
+├── about.html          ← 📄 page À propos
+├── contact.html        ← 📄 page Contact
+├── index.html          ← 📄 page d’accueil
+└── map.txt             ← 🧭 structure ou repères personnalisés
+
+
+
+
+==============================
+🎨 PALETTE GLOBALE PAR INTENTION - UI DESIGN
+==============================
+
+🔵 BLEUS (concentration, fiabilité)
+- Bleu calme : #2563EB
+- Bleu clair : #60A5FA
+- Bleu profond : #1E3A8A
+
+🟢 VERTS (succès, validation, nature)
+- Vert positif : #22C55E
+- Vert clair : #86EFAC
+- Vert foncé : #15803D
+
+🔴 ROUGES (alerte, attention, émotion)
+- Rouge doux : #EF4444
+- Rouge clair : #FCA5A5
+- Rouge sombre : #991B1B
+
+🟡 JAUNES (mise en avant, notice)
+- Jaune soleil : #FACC15
+- Jaune clair : #FEF08A
+- Jaune doré : #D97706
+
+🟠 ORANGES (énergie, action)
+- Orange vif : #F97316
+- Orange doux : #FDBA74
+
+🟣 VIOLETS (créativité, originalité)
+- Violet doux : #A78BFA
+- Violet foncé : #6D28D9
+
+⚫ NOIRS ET GRIS (texte, structure, fond)
+- Noir moderne : #1F2937
+- Gris moyen : #6B7280
+- Gris clair : #F3F4F6
+- Gris très clair : #E5E7EB
+
+⚪ BLANCS ET NEUTRES
+- Blanc pur : #FFFFFF
+- Blanc cassé : #F9FAFB

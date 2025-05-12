@@ -1,0 +1,26 @@
+
+// ==============================
+// = RESPONSIVE
+// ==============================
+
+
+// nav
+@media (min-width: 768px) {
+  .nav__menu {
+    display: flex;
+  }
+
+  .nav__burger {
+    display: flex;
+  }
+}
+
+// cards 
+@media (min-width: 768px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+

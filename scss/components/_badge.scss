@@ -1,0 +1,28 @@
+// ==============================
+// = BADGE
+// ==============================
+
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+.badge--success {
+  background-color: #22C55E; 
+}
+
+.badge--alert {
+  background-color: #EF4444; 
+}
+
+
+
+// <span class="badge badge--success">In stock</span>
+// <span class="badge badge--alert">Rupture</span>
+
